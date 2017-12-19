@@ -1,5 +1,5 @@
 /**
- * Created by za-lisanmei on 2017/11/7.
+ * Created by lisanmei on 2017/11/7.
  */
 const path = require('path');
 const development = {

@@ -1,5 +1,5 @@
 /**
- * Created by za-lisanmei on 2017/9/14.
+ * Created by lisanmei on 2017/9/14.
  */
 import React, { Component } from 'react';
 import {addTodo} from '../actions'
