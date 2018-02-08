@@ -9,6 +9,7 @@ const development = {
 }
 
 const test = {
+    port: '3330',
     publicPath: '/',
     env: '"test"'
 }

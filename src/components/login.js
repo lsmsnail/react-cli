@@ -19,7 +19,7 @@ class Login extends Component{
         return (
             <div>
                 <h1>{todos.text}</h1>
-                <button onClick={()=>this.clickTest()}>click11</button>
+                <button onClick={()=>this.clickTest()}>click</button>
                 <div className="image">123</div>
             </div>
         )

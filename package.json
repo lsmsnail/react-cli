@@ -8,9 +8,10 @@
     "dev": "cross-env NODE_ENV=development node server/dev-server.js",
     "test": "cross-env NODE_ENV=test node server/build.js",
     "uat": "cross-env NODE_ENV=uat node server/build.js",
-    "product": "cross-env NODE_ENV=production node server/build.js",
+    "production": "cross-env NODE_ENV=production node server/build.js",
+    "start-test": "cross-env NODE_ENV=test node server/start.js",
     "start-uat": "cross-env NODE_ENV=uat node server/start.js",
-    "start-product": "cross-env NODE_ENV=production node server/start.js"
+    "start-production": "cross-env NODE_ENV=production node server/start.js"
   },
   "author": "",
   "license": "ISC",
@@ -44,6 +45,7 @@
     "file-loader": "^1.1.5",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.4",
     "node-sass": "^4.5.3",
     "ora": "^1.3.0",
     "postcss-scss": "^1.0.2",

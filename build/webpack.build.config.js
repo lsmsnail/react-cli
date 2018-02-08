@@ -3,6 +3,7 @@
  */
 const webpack = require('webpack'),
     merge = require('webpack-merge'),
+    proxyMiddleware = require('http-proxy-middleware'),
     config = require('../config'),
     baseConfig = require('./webpack.base.config');
 

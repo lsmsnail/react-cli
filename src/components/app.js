@@ -13,7 +13,7 @@ class App extends Component{
     render(){
         return (
             <div>
-                <div onClick={()=>this.clickTest()}>click11</div>
+                <div onClick={()=>this.clickTest()}>click</div>
                 <img src={require('../images/Lighthouse.jpg')} width="200" />
             </div>
         )
